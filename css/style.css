@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav a{
+    padding-right: 10px;
+    margin-right: 20px;
+}
+#logo{
+    margin-left: 50px;
+}
+nav a:hover{
+    color: blue;
+}
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding: 50px;
+}
+#titulocentrado{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#contenedordos{
+    display: flex;
+    justify-content: space-evenly;
+}
+#iconosFooter{
+    text-align: center;
+}
+.iconofooter{
+    padding: 0px 10px;
+    font-size: 33px;
+    padding-bottom: 20px;
+}
